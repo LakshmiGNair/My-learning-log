@@ -1,4 +1,4 @@
-# 🌱 Lakshmi's Learning Log
+# 🌱 My Learning Log
 
 Hi! I'm Lakshmi, a B.Tech Electronics & Communication student exploring the world of tech, open source, and personal growth.
 
