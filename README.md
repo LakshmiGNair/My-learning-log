@@ -4,16 +4,15 @@ Hi there! I'm Lakshmi — a passionate Electronics and Communication Engineering
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
-learning-log/
-│
-├── IoT Internship/
-│ ├── internship-summary.md
-│ ├── python-basics.md
-│ └── iot-basics.md
-│
-├── README.md
+- `learning-log/`
+  - 📄 `README.md` – Overview and goals
+  - 📂 `IoT Internship/`
+    - 📝 `internship-summary.md` – What I learned during the internship
+    - 🐍 `python-basics.md` – My notes on Python
+    - 🌐 `iot-basics.md` – Concepts I understood about IoT
+
 
 ---
 
