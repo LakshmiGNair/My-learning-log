@@ -167,8 +167,8 @@ print("Money each person should pay:", a/b)
 ```
 ---
 ## 🧵 Strings in Python
--Text data in Python.
--Double or single quotes can be used.
+- Text data in Python.
+- Double or single quotes can be used.
 
 Code Examples:
 ```
