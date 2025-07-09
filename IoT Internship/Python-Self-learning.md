@@ -210,18 +210,23 @@ print(word[-1])  # Output: i
 
 ## ✂️ Slicing Strings
 
--Slicing means getting a part of the string.
-string[start_index:end_index]
+- Slicing means getting a part of the string.
 
--It includes start_index but not end_index.
+- string[start_index:end_index]
+
+- It includes start_index but not end_index.
+
+ ``` 
 word = "Lakshmi"
 print(word[0:3])   # Lak
 print(word[2:5])   # ksh
 print(word[:4])    # Laks
 print(word[3:])    # shmi
+```
 
 ## 🔠 String Functions and Slicing Examples
 
+```
 name = "lakshmi"
 print("hello" + name)         # hellolakshmi
 print(len(name))              # 7
@@ -233,6 +238,7 @@ print(name[:4])               # laks
 print(name[3:])               # shmi
 print(name.upper())          # LAKSHMI
 print(name.lower())          # lakshmi
+```
 
 ### ✅ Make only one letter uppercase (2nd letter):
 
