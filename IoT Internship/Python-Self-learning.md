@@ -345,6 +345,159 @@ if password == "lakshmi123":
 else:
     print("ACCESS DENIED")
 ```
+---
+
+## 🔁 Loops
+
+### 1. for loop (when you know how many times)
+```
+for i in range(5):
+    print("Hello")
+```
+# Output:
+```
+# Hello
+# Hello
+# Hello
+# Hello
+# Hello
+```
+### 2. Loop through a list
+
+```
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+# Output:
+```
+# apple
+# banana
+# cherry
+```
+- Loops let you repeat actions in your code without writing the same lines again and again.
+
+## Two main types:
+### for loop
+– when you know how many times
+
+### while loop
+– when you don’t know how many times, but you have a condition
+
+### range(start, stop, step) explained:
+```
+for i in range(2, 10, 2):
+    print(i)
+# Output: 2, 4, 6, 8
+```
+
+## 👨‍💻 Loop Practice Questions
+### Q5: Print numbers from 1 to 10
+
+```
+for i in range(1, 11):
+    print(i)
+```
+### Output:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+### Q6: Print first 10 even numbers
+
+```
+for i in range(2, 21, 2):
+    print(i)
+```
+### Output:
+```
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+```
+
+### 🧾 Print "Hello Lakshmi" 5 times
+
+```
+for i in range(5):
+    print("HELLO LAKSHMI")
+```
+---
+## 🔢 Adding Numbers Using f-string
+
+```
+for i in range(1, 6):
+    print(f"{i}. HELLO LAKSHMI")
+```
+- f-string: f"{ }" = formatted string literal
+
+```
+a = 10
+b = 5
+print(f"The sum is {a + b}")  # Output: The sum is 15
+```
+
+### ➕ Adding Two Numbers
+```
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
+sum = a + b
+print("The sum is", sum)
+```
+
+### Using f-string:
+```
+a = int(input("Enter the first number:"))
+b = int(input("Enter the second number:"))
+sum = a + b
+print(f"The sum is {sum}")
+```
+
+### 👤 Print Name and Age
+```
+name = input("Enter your name:")
+age = input("Enter your age:")
+print(f"{name} is {age} years old")
+# Output: Lakshmi is 20 years old
+```
+---
+
+### 🔢 Multiplication Table
+```
+a = int(input("Enter the number:"))
+for i in range(1, 11):
+    print(f"{a} * {i} = {a * i}")
+```
+
+### Without f-string:
+```
+a = int(input("Enter the number:"))
+for i in range(1, 11):
+    print("The table goes like", a * i)
+```
+
+### Another version:
+```
+a = int(input("Enter the number:"))
+for i in range(1, 11):
+    print(a, "*", i, "=", a * i)
+```
 
 
 
@@ -352,6 +505,17 @@ else:
 
 
 
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
