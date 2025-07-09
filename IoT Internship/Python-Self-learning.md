@@ -193,7 +193,9 @@ print(name.lower())
 - Negative indexing starts from -1.
 
 L a k s h m i
+
 0 1 2 3 4 5 6
+
 -7 -6 -5 -4 -3 -2 -1
 
 
