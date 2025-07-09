@@ -354,7 +354,7 @@ else:
 for i in range(5):
     print("Hello")
 ```
-# Output:
+### Output:
 ```
 # Hello
 # Hello
@@ -369,7 +369,7 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 ```
-# Output:
+### Output:
 ```
 # apple
 # banana
@@ -379,10 +379,10 @@ for fruit in fruits:
 
 ## Two main types:
 ### for loop
-– when you know how many times
+- when you know how many times
 
 ### while loop
-– when you don’t know how many times, but you have a condition
+- when you don’t know how many times, but you have a condition
 
 ### range(start, stop, step) explained:
 ```
