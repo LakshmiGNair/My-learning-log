@@ -159,14 +159,14 @@ floor division: 3
 modulus: 1
 exponentiation: 1000
 ```
-###🧾 Task: You and your 2 friends go to a restaurent. The total bill is 1234 rupees. How much should each pay?
+### 🧾 Task: You and your 2 friends go to a restaurent. The total bill is 1234 rupees. How much should each pay?
 ```
 a = 1234
 b = 3
 print("Money each person should pay:", a/b)
 ```
-
-##🧵 Strings in Python
+---
+## 🧵 Strings in Python
 -Text data in Python.
 -Double or single quotes can be used.
 
