@@ -224,6 +224,7 @@ print(word[:4])    # Laks
 print(word[3:])    # shmi
 ```
 
+
 ## 🔠 String Functions and Slicing Examples
 
 ```
@@ -242,41 +243,53 @@ print(name.lower())          # lakshmi
 
 ### ✅ Make only one letter uppercase (2nd letter):
 
+```
 word = "lakshmi"
 new_word = word[0] + word[1].upper() + word[2:]
 print(new_word)  # Output: lAkshmi
+```
 
 ### ✅ Make 4th character uppercase:
+
+```
 word = "lakshmi"
 index = 3
 new_word = word[:index] + word[index].upper() + word[index+1:]
 print(new_word)
+```
 
+---
 
 ## ✅ Conditional Statements
+
 ### 1. if statement
 
+```
 age = 20
 if age >= 18:
     print("You're an adult")
+```
 
 ### 2. if with input()
 
+```
 age = input("My age is: ")
 age = int(age)
 if age >= 18:
     print("You are an adult")
-
+```
 ### 3. if + else
 
+```
 age = 16
 if age >= 18:
     print("You're an adult")
 else:
     print("You're a minor")
-
+``` 
 ### 4. elif (else if)
 
+```
 age = 70
 if age < 18:
     print("You're a minor")
@@ -284,20 +297,24 @@ elif age < 60:
     print("You're an adult")
 else:
     print("You're a senior citizen")
-
+```
+---
 ## 🧪 Practice Questions
+
 ### Q1: Check even or odd
 
+```
 number = input("Enter the number:")
 number = int(number)
 if number % 2 == 0:
     print("The number is even")
 else:
     print("The number is odd")
-
+```
 
 ### Q2: Grading System
 
+```
 mark = int(input("Enter your marks:"))
 if mark >= 90:
     print("A grade")
@@ -307,25 +324,27 @@ elif 60 <= mark <= 74:
     print("C grade")
 else:
     print("FAIL")
-
+```
 
 ### Q3: License Eligibility
 
+```
 age = int(input("Enter your age:"))
 if age >= 18:
     print("eligible")
 else:
     print("not eligible")
-
+```
 
 ### Q4: Password Check
 
+```
 password = input("Enter your password: ")
 if password == "lakshmi123":
     print("ACCESS GRANTED")
 else:
     print("ACCESS DENIED")
-
+```
 
 
 
